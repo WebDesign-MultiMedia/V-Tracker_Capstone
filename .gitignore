@@ -31,3 +31,23 @@ lerna-debug.log*
 *.sln
 *.sw?
 *.local
+
+# IDE (IntelliJ)
+.idea/
+*.iml
+
+# Java / Maven / Gradle build output
+target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# All env files (keep examples)
+.env.*
+!.env.example
+
+# Google service-account / OAuth credentials
+*service-account*.json
+*serviceAccount*.json
+credentials*.json
+client_secret*.json
